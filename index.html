@@ -100,10 +100,9 @@
         })
 
         $('#exampleModal').on('hide.bs.modal', function (e) {
-            console.log("here")
             $(".stroked-text").textyleF({
-                delay: 100,
-                duration: 1000,
+                delay: 50,
+                duration: 100,
                 easing: "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
                 callback: function () {
                     $(this).css({
