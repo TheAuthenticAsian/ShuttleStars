@@ -5,7 +5,7 @@
 h1,
 h2,
 p {
-    color: white !important;
+    color: white;
 }
 
 h1,
@@ -39,6 +39,7 @@ p {
 
 .stroked-text {
     -webkit-text-stroke: 1px white;
+    color: rgba(0, 0, 0, 0);
 }
 
 /* Background Set Up */
